@@ -1,0 +1,196 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 14px;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    border-collapse: collapse;
+    border-color: black;
+    font-weight: 300;
+    padding: 0%;
+    margin: 0%
+}
+nav {
+    padding: 2px;
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    font-size: 15px;
+    font-weight: bolder;
+    color: gray;
+    text-decoration: none;
+    margin-right: 20px;
+}
+p{
+    font-weight: 20;
+    color: gray;
+}
+.logo {
+    padding-left: 50px;
+}
+
+/* change the link color on hover */
+li:hover { 
+    background-color: rgb(135, 235, 135);
+    color: white;
+}
+
+button {
+    background-color: rgb(0, 126, 0);
+    padding: 10px 20px;
+    color: white; 
+    border-radius: 10px;
+    display: flexbox;
+}
+.home {
+    display: flex;
+    padding: 7.5%;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.about {
+    display: flex;
+    padding: 7.5%;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+h4 {
+    color: green;
+}
+.offer {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.h4 {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 100px;
+   
+}
+.box {
+    background-color: beige;
+    border: 5px solid white;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    transition: .3s;
+    margin-bottom: auto;
+    margin-top: 10px;
+}
+.cart {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.fa-fa-shopping-cart {
+    size: 30px;
+}
+#image {
+    width: 100px;
+    
+}
+.talk {
+    display: flex;
+    border-top: 2px solid gray;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 120px;
+}
+.talks {
+    padding-right: 50px;
+    margin-right: 50px;
+}
+.talk-now {
+    font-size: smaller;
+    min-width: fit-content;
+}
+.talk-p { 
+    align-items: baseline;
+}
+.info {
+    display: flex;
+    padding-top: 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 100px;
+}
+/* for mobile phones*/
+@media screen and (max-width: 412px) {
+    .info-1 {
+    font-weight: bolder;
+    }
+}
+.brands {
+    margin-top: 75px;
+
+}
+.h3 {
+    color: green;
+}
+.below {
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 0%;
+}
+.last { 
+    position: absolute;
+    right: 0;
+   font-size: larger;
+   bottom: o;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
